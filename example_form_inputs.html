@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Inputs</title>
+</head>
+<body>
+
+<form action="example_form_output.php" method="get">
+    First Name: <input type="text" name="FirstName"/><br/>
+    Last Name: <input type="text" name="LastName" value="Default Value Here"/><br/>
+    A password: <input type="password" name="pass"/><br/>
+    Do you like ice cream: <input type="checkbox" name="LikeIceCream" value="yes"/>Yes!<br/><br/>
+    Food preference:<br/>
+    <input type="radio" name="FoodPreference" value="Anything" checked/> Anything<br/>
+    <input type="radio" name="FoodPreference" value="Vegetarian"> Vegetarian<br/>
+    <input type="radio" name="FoodPreference" value="Vegan"> Vegan<br/><br/>
+    City<br/>
+    <select name="City">
+        <option value="Minneapolis">Minneapolis</option>
+        <option value="St. Paul">St. Paul</option>
+        <option value="Maple Grove" selected>Maple Grove</option>
+        <option value="Plymouth">Plymouth</option>
+    </select>
+    <br/><br/>
+    Your favorite number: <input type="number" name="FavoriteNumber"/> * Note that the number input type is part of HTML5<br/><br/>
+    Any notes:<br/>
+    <textarea name="notes" rows="10" cols="30">Default text goes here!</textarea>
+    <br/>
+    <input type="submit"/><input type="reset"/>
+</form>
+
+</body>
+</html>
